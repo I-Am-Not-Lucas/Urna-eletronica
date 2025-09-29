@@ -25,13 +25,13 @@ public class Urna {
 
         Candidato vereadorA = new Candidato();
         vereadorA.setNome("Vereador A");
-        vereadorA.setCargo(Cargo.PREFEITO);
+        vereadorA.setCargo(Cargo.VEREADOR);
         vereadorA.setNumero(13);
         vereadorA.setVotos(10);
 
         Candidato vereadorB = new Candidato();
         vereadorB.setNome("Vereador B");
-        vereadorB.setCargo(Cargo.PREFEITO);
+        vereadorB.setCargo(Cargo.VEREADOR);
         vereadorB.setNumero(13);
         vereadorB.setVotos(10);
 
