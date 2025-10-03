@@ -4,13 +4,9 @@ import com.ada.enums.Cargo;
 
 public class Candidato extends Pessoa {
     //Classe Candidato (número, cargo, votos)
-    public int numero;
-    public Cargo cargo;
-    public int votos;
-
-    public Candidato() {
-
-    }
+    private int numero;
+    private Cargo cargo;
+    private int votos;
 
     public int getVotos() {
         return votos;
